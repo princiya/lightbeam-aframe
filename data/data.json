@@ -1,0 +1,64 @@
+{
+    "nodes": [
+        {
+          "id": "id1",
+          "name": "www.mozilla.org",
+          "val": 1
+        },
+        {
+          "id": "id2",
+          "name": "www.google.de",
+          "val": 10
+        },
+        {
+          "id": "id3",
+          "name": "aframe.io",
+          "val": 12
+        },
+        {
+          "id": "id4",
+          "name": "github.com",
+          "val": 13
+        },
+        {
+          "id": "id5",
+          "name": "zalando.de",
+          "val": 4
+        },
+        {
+          "id": "id6",
+          "name": "twitter.com",
+          "val": 15
+        }
+    ],
+    "links": [
+        {
+            "source": "id1",
+            "target": "id2"
+        },
+        {
+            "source": "id3",
+            "target": "id4"
+        },
+        {
+            "source": "id3",
+            "target": "id6"
+        },
+        {
+            "source": "id5",
+            "target": "id2"
+        },
+        {
+            "source": "id3",
+            "target": "id2"
+        },
+        {
+            "source": "id1",
+            "target": "id5"
+        },
+        {
+            "source": "id1",
+            "target": "id3"
+        }
+    ]
+}
